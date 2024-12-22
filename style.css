@@ -13,6 +13,14 @@ a {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 320px) {
+    .cont {
+        width: 320px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
 
 .intg>a {
     margin-right: 50px;
@@ -21,6 +29,13 @@ a {
     font-size: 20px;
     transition: background-color 0.5s;
 }
+
+@media screen and (max-width: 320px) {
+    .intg-a {
+        /* display: none; */
+    }
+}
+
 
 .intg>a:hover {
     color: beige;
@@ -54,6 +69,12 @@ header {
     font-size: 20px;
     font-weight: 200;
     font-style: normal;
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        display: none;
+    }
 }
 
 .label {
@@ -103,7 +124,7 @@ header {
 
     font-family: "Montserrat", serif;
     font-size: 25px;
-    width:200px;
+    width: 200px;
     text-align: right;
     margin-left: 514px;
     margin-top: 0px;
@@ -120,7 +141,7 @@ header {
     transition: background-color 0.5s;
 }
 
-.btn-inf:hover{
+.btn-inf:hover {
     background-color: mediumslateblue;
 }
 
@@ -133,5 +154,5 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-margin-top: -40px;
- }
+    margin-top: -40px;
+}
