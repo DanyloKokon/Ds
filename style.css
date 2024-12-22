@@ -13,7 +13,7 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .cont {
         width: 320px;
         padding: 0;
@@ -30,7 +30,7 @@ a {
     transition: background-color 0.5s;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
     .intg-a {
         /* display: none; */
     }
