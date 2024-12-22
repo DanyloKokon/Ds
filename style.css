@@ -27,7 +27,7 @@ a {
 }
 
 .back {
-    background-image: url(/img/71c5ff07af70b970331bc1a75430c280.jpg);
+    background-image: url(./img/71c5ff07af70b970331bc1a75430c280.jpg);
     background-repeat: no-repeat;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -91,7 +91,7 @@ header {
 /*--------------------------------------Information--------------*/
 
 .inf {
-    background-image: url(/img/Screenshot\ 2024-12-22\ 191247.png);
+    background-image: url(./img/Screenshot\ 2024-12-22\ 191247.png);
     background-color: #2b2d31;
     margin-top: -10px;
     background-repeat: no-repeat;
