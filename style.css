@@ -1,3 +1,51 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
 li {
     list-style: none;
 
@@ -13,7 +61,7 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .cont {
         width: 320px;
         padding: 0;
@@ -30,10 +78,14 @@ a {
     transition: background-color 0.5s;
 }
 
-@media screen and (max-width: 300px) {
-    .intg-a {
-        /* display: none; */
+@media screen and (max-width: 425px) {
+    .intg-a-1{
+       display: none;
     }
+    .intg-a-2{
+        display: none;
+    }
+
 }
 
 
@@ -71,7 +123,7 @@ header {
     font-style: normal;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     .logo {
         display: none;
     }
@@ -119,7 +171,12 @@ header {
     height: 245px;
     height: 300px;
 }
-
+@media screen and (max-width: 425px) {
+    .inf{
+        background-image: none;
+        background-color: #2b2d31;
+    }
+}
 .main-text {
 
     font-family: "Montserrat", serif;
@@ -147,7 +204,7 @@ header {
 
 .btn-inf>a {
     color: white;
-
+    font-family: "Montserrat", serif;
 }
 
 .btn-main-wrap {
