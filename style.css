@@ -212,9 +212,17 @@ header {
     width: 200px;
     text-align: right;
     margin-left: 514px;
-    margin-top: 0px;
+    margin-top: 10px;
     color: white;
 }
+
+@media screen and (max-width: 425px) {
+    .main-text{
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+}
+
 
 
 .btn-inf {
@@ -240,4 +248,11 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: -40px;
+}
+
+
+
+.foot{
+    
+    background-color: #2b2d31;
 }
