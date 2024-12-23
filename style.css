@@ -250,9 +250,84 @@ header {
     margin-top: -40px;
 }
 
+.dis{
+    width: 25px;
+    height: 25px;
+    background: none;
+    margin-left: 10px;
+    
+}
 
+.tele{
+    width: 25px;
+    height: 25px;
+    background: none;
+    margin-left: 10px;
+    /* margin-top: 30px; */
+}
 
 .foot{
+    padding-top: 30px;
+    background-color: #2b2d33;
+}
+
+.flex{
+    display: flex;
+}
+
+.a2{
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Montserrat", serif;
+    width: 25px;
     
-    background-color: #2b2d31;
+}
+.a1{
+    width: 25px;
+   flex-direction: column-reverse;
+   margin-bottom: 10px;
+   color: white;
+    font-family: "Montserrat", serif;
+    
+}
+
+.a-p1, .a-p2{
+margin-left: 12px;
+transition: background-color 0.5s;
+color: white;
+}
+
+.a-p1, .a-p2:hover{
+    color: beige;
+}
+.resors{
+    margin-left: 30%;
+}
+
+.inf-foot{
+    display: flex;
+    gap: 30%;
+    /* margin-left: 400%; */
+    align-items: center;
+    justify-content: center;
+}
+
+.clf{
+    color: white;
+    font-family: "Montserrat", serif;
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+    .clf{
+        margin-top: 15%;
+        font-size: 100%;
+    }
+}
+
+.btn-ft{
+    background-color: transparent;
 }
